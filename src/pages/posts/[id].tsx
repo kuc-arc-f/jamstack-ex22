@@ -42,6 +42,10 @@ export default function Page({ blog }) {
         max-width : 100%;
         height : auto;
       }
+      #post_item pre{
+        background-color: #EEE;
+        padding: 0.5rem;
+      }      
       .show_head_wrap{ font-size: 1.4rem; }
       .pdf_next_page {
         page-break-before: always;
